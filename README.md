@@ -2,12 +2,12 @@
 
 # Media Storage API
 
-[comment]: <> ([![Quality Gate Status]&#40;https://sonarcloud.io/api/project_badges/measure?project=jaimedantas_load-microservice&metric=alert_status&#41;]&#40;https://sonarcloud.io/dashboard?id=jaimedantas_load-microservice&#41;)
-[comment]: <> ([![Coverage]&#40;https://sonarcloud.io/api/project_badges/measure?project=b3-tax-calculator&metric=coverage&#41;]&#40;https://sonarcloud.io/dashboard?id=b3-tax-calculator&#41;)
-[comment]: <> ([![Maintainability Rating]&#40;https://sonarcloud.io/api/project_badges/measure?project=jaimedantas_load-microservice&metric=sqale_rating&#41;]&#40;https://sonarcloud.io/dashboard?id=jaimedantas_load-microservice&#41;)
-[comment]: <> ([![Security Rating]&#40;https://sonarcloud.io/api/project_badges/measure?project=jaimedantas_load-microservice&metric=security_rating&#41;]&#40;https://sonarcloud.io/dashboard?id=jaimedantas_load-microservice&#41;)
-[comment]: <> ([![Reliability Rating]&#40;https://sonarcloud.io/api/project_badges/measure?project=jaimedantas_load-microservice&metric=reliability_rating&#41;]&#40;https://sonarcloud.io/dashboard?id=jaimedantas_load-microservice&#41;)
-[comment]: <> ([![Vulnerabilities]&#40;https://sonarcloud.io/api/project_badges/measure?project=jaimedantas_load-microservice&metric=vulnerabilities&#41;]&#40;https://sonarcloud.io/dashboard?id=jaimedantas_load-microservice&#41;)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=victorandradeap_media-storage-api&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=victorandradeap_media-storage-api)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=victorandradeap_media-storage-api&metric=coverage)](https://sonarcloud.io/summary/new_code?id=victorandradeap_media-storage-api)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=victorandradeap_media-storage-api&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=victorandradeap_media-storage-api)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=victorandradeap_media-storage-api&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=victorandradeap_media-storage-api)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=victorandradeap_media-storage-api&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=victorandradeap_media-storage-api)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=victorandradeap_media-storage-api&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=victorandradeap_media-storage-api)
 
 [comment]: <> (This microservice simulates a microservice with a REST endpoint at ``/resource/{resource_id}``. There is a tutorial on Medium [here]&#40;https://medium.com/reverse-engineering/creating-your-very-first-microservice-with-micronaut-and-kotlin-9be6be4a58d5&#41;.)
 
