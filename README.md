@@ -17,7 +17,7 @@
  - Swagger UI
  
 ## Libraries
- - [Java Fluent Validator](https://github.com/mvallim/java-fluent-validator)
+ - [MinIO SDK](https://docs.min.io/docs/java-client-quickstart-guide.html)
  
 ## Requirements
 - JDK 11

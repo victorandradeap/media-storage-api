@@ -9,7 +9,7 @@ plugins {
 version = "0.0.1"
 group = "com.victorandradeap"
 
-val kotlinVersion=project.properties.get("kotlinVersion")
+val kotlinVersion = project.properties.get("kotlinVersion")
 repositories {
     mavenCentral()
 }
@@ -40,7 +40,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
 
-
+    implementation("io.minio:minio:8.3.3")
     implementation("io.swagger.core.v3:swagger-annotations")
     implementation("javax.annotation:javax.annotation-api")
 
@@ -74,6 +74,9 @@ tasks {
 
 kapt {
     arguments {
-        arg("micronaut.openapi.views.spec", "redoc.enabled=true,rapidoc.enabled=true,swagger-ui.enabled=true,swagger-ui.theme=flattop")
+        arg(
+            "micronaut.openapi.views.spec",
+            "redoc.enabled=true,rapidoc.enabled=true,swagger-ui.enabled=true,swagger-ui.theme=flattop"
+        )
     }
 }
