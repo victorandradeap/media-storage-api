@@ -30,9 +30,8 @@ $ gradle clean build
 ```
 ## Run
 To run the microservice, run:
-```
-$ java -jar load-simulator-0.1.jar
-```
+TODO
+
 ## Documentation
 Swagger UI is used for documentation. You can find the information accessing its webpage at:
 ```
