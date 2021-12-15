@@ -13,7 +13,7 @@
 
 ## Languages and frameworks
  - Kotlin 1.5.21
- - Micronaut Framework 2.4.1
+ - Micronaut Framework 3.1.1
  - Swagger UI
  
 ## Libraries
@@ -21,22 +21,22 @@
  
 ## Requirements
 - JDK 11
-- Gradle 6.8.3
+- Apache Maven 3.6.3
 
 ## Building From Source
 To build from source checkout the code and run:
+```shell
+mvn clean package -DskipTests
 ```
-$ gradle clean build
-```
+
 ## Run
 To run the microservice, run:
-```
-$ java -jar load-simulator-0.1.jar
-```
+TODO
+
 ## Documentation
 Swagger UI is used for documentation. You can find the information accessing its webpage at:
 ```
-http://localhost:8080/swagger/views/swagger-ui/
+http://localhost:8080/swagger-ui/
 ```
 You can try the API using the Swagger interface embedded on this microservice.  
 
