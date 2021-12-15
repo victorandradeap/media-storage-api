@@ -21,7 +21,20 @@
         <exec.mainClass>com.victorandradeap.media.storage.api.ApplicationKt</exec.mainClass>
         <kotlin.version>1.5.21</kotlin.version>
         <micronaut.runtime>netty</micronaut.runtime>
+        <aws.java.sdk.version>2.16.1</aws.java.sdk.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>bom</artifactId>
+                <version>${aws.java.sdk.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <repositories>
         <repository>
@@ -60,6 +73,12 @@
             <groupId>io.micronaut.kotlin</groupId>
             <artifactId>micronaut-kotlin-runtime</artifactId>
             <scope>runtime</scope>
+        </dependency>
+
+        <!-- AWS -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
         </dependency>
 
         <!-- Kotlin Dependencies -->
