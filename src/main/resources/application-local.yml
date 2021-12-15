@@ -1,0 +1,6 @@
+api:
+  minio:
+    endpoint: http://localhost:9000
+    user: AKIAIOSFODNN7EXAMPLE
+    password: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+    bucket-name: media-storage
