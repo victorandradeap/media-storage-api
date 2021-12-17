@@ -193,9 +193,11 @@
                                 </annotationProcessorPaths>
                             </annotationProcessorPaths>
                             <annotationProcessorArgs>
-                                <annotationProcessorArg>com.victorandradeap.media.storage.api
+                                <annotationProcessorArg>
+                                    com.victorandradeap.media.storage.api
                                 </annotationProcessorArg>
-                                <annotationProcessorArg>micronaut.processing.module=mediaStorageApi
+                                <annotationProcessorArg>
+                                    micronaut.processing.module=mediaStorageApi
                                 </annotationProcessorArg>
                             </annotationProcessorArgs>
                         </configuration>

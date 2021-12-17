@@ -17,7 +17,7 @@
  - Swagger UI
  
 ## Libraries
- - [MinIO SDK](https://docs.min.io/docs/java-client-quickstart-guide.html)
+ - [AWS SDK](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html)
  
 ## Requirements
 - JDK 11
@@ -29,7 +29,9 @@ To build from source checkout the code and run:
 mvn clean package -DskipTests
 ```
 
-## Run
+## Run Locally
+TODO
+
 To run the microservice, run:
 TODO
 

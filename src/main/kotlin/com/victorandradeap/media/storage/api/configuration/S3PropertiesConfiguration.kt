@@ -2,11 +2,8 @@ package com.victorandradeap.media.storage.api.configuration
 
 import io.micronaut.context.annotation.ConfigurationProperties
 
-@ConfigurationProperties("api.minio")
-class MinioPropertiesConfiguration {
-
+@ConfigurationProperties("api.aws.s3")
+class S3PropertiesConfiguration {
     var endpoint: String = ""
-    var user: String = ""
-    var password: String = ""
     var bucketName: String = ""
 }
