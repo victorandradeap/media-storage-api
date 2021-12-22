@@ -62,13 +62,6 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Libs -->
-        <dependency>
-            <groupId>io.minio</groupId>
-            <artifactId>minio</artifactId>
-            <version>8.3.4</version>
-        </dependency>
-
         <!-- Kotlin Dependencies -->
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
@@ -99,6 +92,13 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <scope>runtime</scope>
+        </dependency>
+
+        <!-- Libs -->
+        <dependency>
+            <groupId>io.minio</groupId>
+            <artifactId>minio</artifactId>
+            <version>8.3.4</version>
         </dependency>
 
         <!-- Test -->
