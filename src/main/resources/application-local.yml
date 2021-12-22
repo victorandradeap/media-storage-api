@@ -1,6 +1,9 @@
 api:
   environment: local
-  aws:
-    s3:
-      endpoint: http://localhost:4566
-      bucket-name: media-storage
+  upload-signature-duration-in-minutes: 10
+  main-bucket-name: main-media-storage
+  sandbox-bucket-name: sandbox-media-storage
+  minio:
+    endpoint: http://localhost:9000
+    accesskey: accesskey
+    secretkey: secretkey

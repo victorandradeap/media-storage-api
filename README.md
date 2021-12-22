@@ -17,7 +17,7 @@
  - Swagger UI
  
 ## Libraries
- - [AWS SDK](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html)
+ - [MinIO Java SDK](https://docs.min.io/docs/java-client-quickstart-guide.html)
  
 ## Requirements
 - JDK 11
